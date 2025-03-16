@@ -1,0 +1,176 @@
+body {
+
+    background-image: url(kitchen-6878026_1280.jpg);
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    background-color: #D2AC47;
+    border-bottom: 2px solid rgb(252, 232, 217);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0 2px 20px rgb(251, 251, 251);
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.img00 {
+    width: 250px;
+    height: 350px;
+    border-radius: 30%;
+}
+
+.ch00 {
+    height: 450px;
+    width: 260px;
+    padding: 3px;
+}
+
+.ch01 {
+    background-color: rgb(248, 241, 241);
+}
+
+.ch001 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.history {
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.clickable {
+    color: rgb(235, 235, 243);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.content {
+    flex: 1;
+}
+
+/* Footer Styling */
+footer {
+    background: linear-gradient(135deg, #D2AC47, #D2AC47);
+    color: #fff;
+    padding: 40px 0 20px;
+    border-top-left-radius: 100px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+.footer-section {
+    margin-bottom: 20px;
+}
+
+.footer-section h2,
+.footer-section h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    position: relative;
+}
+
+.footer-section h3::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background: #fff;
+    margin-top: 5px;
+}
+
+.footer-section p,
+.footer-section a {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.newsletter-input {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.newsletter-input input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 200px;
+    outline: none;
+}
+
+.newsletter-input button {
+    background: #ff5e57;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.social-icons a {
+    color: #ccc;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #1877f2; /* Bleu Facebook */
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #333;
+    font-size: 14px;
+    color: #ccc;
+}

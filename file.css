@@ -1,0 +1,59 @@
+body , html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+}
+#background-video{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1
+}
+    
+img{
+    width: 350px;
+    float: right;
+    display: block;
+    /*background-color: #000;*/
+    
+}
+h1,h4{
+    color: #f4ebd0;;
+    font-size: 75px;
+}
+header{
+    background-color:#D2AC47;
+    border-bottom: 2px solid rgb(252,232,217);
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: 0 2px 20px rgb(251, 251, 251);
+}
+nav a {
+ text-decoration: none;
+}
+.class {
+    animation: float 4s ease-in-out infinite;
+  }
+  
+  @keyframes float {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  h2 {
+      color: yellow;
+      font-size: 80px;
+  }
+  
